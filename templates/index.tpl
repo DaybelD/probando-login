@@ -11,6 +11,10 @@
       <br>
 
       </main>
-      Pie
+      <div class="sticky-md-bottom">
+        <footer class="py-3 my-4">
+        <p class="text-center text-muted">&copy; 2022 3valtech Inc.</p>
+        </footer>
+      </div>
    </body>
 </html>
