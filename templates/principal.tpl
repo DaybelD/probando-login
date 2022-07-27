@@ -1,5 +1,5 @@
  {include file="cab1.tpl" titulo="Principal"}
-<body>
+<body class="d-flex flex-column h-100">
    <nav class="navbar navbar-expand-sm"  style="background-color: #e3f2fd;" aria-label="Third navbar example">
     <div class="container-md">
     <img src="images/logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
@@ -33,8 +33,8 @@
       </div>
     </div>
   </nav>
-<div class="col-lg-8 mx-auto p-3 py-md-5">
-<main>
+<main class="flex-shrink-0">
+  <div class="col-lg-8 mx-auto p-3 py-md-5">
     <h1>Bienvenido al sistema</h1>
     <p class="fs-5 col-md-8">Sistema de prueba para actualizaciones y mejoras de FormHandler, asi como uso de bootstrap y smarty.</p>
 
@@ -69,14 +69,16 @@
         <h3>MAS INFORMACION NO RELEVANTE</h3>
       </div>
     </div>
-  </main>
-</div>
-      <div class="sticky-bottom">
-        <footer class="py-3 my-4">
-        <p class="text-center text-muted">&copy; 2022 - 3valtech Inc.</p>
-        </footer>
-      </div>
+  </div>
+</main>
 
+  <!-- ARREGLAR EL FOOTER/ se mueve con la pagina en lugar de quedarse en el fondo-->
+  <!-- Sigo en eso, la falla la esta dando algun lugar de la pagina ajeno al footer-->
+      <footer class="footer mt-auto py-3 bg-primary">
+        <div class="container">
+        <span class="text-muted text-center">&copy; 2022 3valtech Inc.</span>
+        </div>
+      </footer>
 
 <script src="vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 

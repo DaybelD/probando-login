@@ -1,6 +1,6 @@
 {include file="cab0.tpl"}
-    <body class="text-center">
-      <main class="form-signin w-100 m-auto">
+    <body class="text-center d-flex flex-column h-100">
+      <main class="form-signin w-100 m-auto flex-shrink-0">
         <h1 class="h3 mb-3 fw-normal">Inicia sesion</h1>
          <img class="mb-4" src="./images/logo.svg" alt="Logo de 3ValTech" width="150">
   <div class="alert alert-warning alert-dismissible {if $showalert}{else}d-none{/if}" role="alert">
@@ -11,10 +11,10 @@
       <br>
 
       </main>
-      <div class="sticky-md-bottom">
-        <footer class="py-3 my-4">
-        <p class="text-center text-muted">&copy; 2022 3valtech Inc.</p>
-        </footer>
-      </div>
+      <footer class="footer mt-auto py-3" style="background-color: #038cfc;">
+        <div class="container">
+        <p class="text-muted">&copy; 2022 3valtech Inc.</p>
+        </div>
+      </footer>
    </body>
 </html>
