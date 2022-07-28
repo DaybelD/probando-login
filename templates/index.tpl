@@ -11,7 +11,7 @@
       <br>
 
       </main>
-      <footer class="footer mt-auto py-3" style="background-color: #038cfc;">
+      <footer class="footer mt-auto py-2" style="background-color: #038cfc;">
         <div class="container">
         <p class="text-muted">&copy; 2022 3valtech Inc.</p>
         </div>
