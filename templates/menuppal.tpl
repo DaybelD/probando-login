@@ -8,25 +8,29 @@
         <div class="collapse navbar-collapse" id="navbarsExample03">
           <ul class="navbar-nav me-auto mb-2 mb-sm-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="#"><img src="images/house.svg" width="16" height="16"> Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Enlace</a>
+              <a class="nav-link" href="#"><img src="images/people.svg" width="16" height="16">Clientes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Disabled</a>
+              <a class="nav-link" href="#"><img src="images/filter-square.svg" width="16" height="16">Contratos</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Opciones</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="images/reception-4.svg" width="16" height="16">Servidores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="images/coin.svg" width="16" height="16">Planes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="images/text.svg" width="16" height="16">Facturación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="images/gear.svg" width="16" height="16"> Ajustes</a>
             </li>
           </ul>
           <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-            <a class="btn btn-bd-light" href="index.php" role="button">Salir</a>
+            <a class="btn btn-bd-light" href="index.php" role="button"><img src="images/door-open.svg" width="16" height="16">Salir</a>
           </div>
         </div>
       </div>

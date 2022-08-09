@@ -1,9 +1,5 @@
-{include file="cab1.tpl" titulo="Principal"}
-{include file="menuppal.tpl"}
-<body class="d-flex flex-column h-100">
-<!--inicio del contenido de la pagina-->
-    <main class="flex-shrink-0">
-      <div class="col-lg-8 mx-auto p-3 py-md-5">
+{include file="cab2.tpl" titulo="Principal"}
+
         <h1>Bienvenido al sistema</h1>
           <p class="fs-5 col-md-8">Sistema de prueba para actualizaciones y mejoras de FormHandler, asi como uso de bootstrap y smarty.</p>
         <div class="mb-5">
@@ -35,9 +31,5 @@
         <h3>MAS INFORMACION NO RELEVANTE</h3>
       </div>
     </div>
-  </div>
-</main>
-  {include file="footer.tpl"}
-  <script src="vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
-</html>
+
+{include file="pie2.tpl"}
